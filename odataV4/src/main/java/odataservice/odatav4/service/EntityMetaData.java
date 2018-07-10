@@ -72,4 +72,14 @@ public class EntityMetaData<T> {
         return inlinePropertyList;
     }
 
+	public String getEntityTypeSetName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Object getProperties() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

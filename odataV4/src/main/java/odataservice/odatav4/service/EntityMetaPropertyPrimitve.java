@@ -55,4 +55,19 @@ public class EntityMetaPropertyPrimitve extends EntityMetaProperty {
         this.scale = scale;
         this.unicode = unicode;
     }
+
+	public int getMaxLength() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public int getPrecision() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public Integer getScale() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

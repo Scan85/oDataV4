@@ -47,4 +47,19 @@ public abstract class EntityMetaProperty {
     public Object getDefaultValue() {
         return DefaultValue.forClass(this.getFieldType());
     }
+
+	private Class getFieldType() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public String getEdmName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public boolean getNullable() {
+		// TODO Auto-generated method stub
+		return false;
+	}
 }
